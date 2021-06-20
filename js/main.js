@@ -52,7 +52,7 @@ $(document).ready(function () {
         if (message.length > 2) {
           document.getElementById('status').innerText = "Thank you for your message!"
         } else {
-          document.getElementById('status').innerText = "Please provide a suitable message"
+          document.getElementById('status').innerText = "Please provide a suitable message for us"
         }
       });
 });
