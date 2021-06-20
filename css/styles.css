@@ -41,3 +41,12 @@ input, textarea{
 input::placeholder, textarea::placeholder{
     color: white !important;
 }
+
+.submit{
+    background-color: transparent;
+    border: 2px solid #ffffffb6;
+    border-radius: 5px;
+    display: inline-block;
+    width: 50%;
+    color: #ffffffb6;
+}
