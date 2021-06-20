@@ -4,5 +4,12 @@ body {
     font-weight: 400;
     line-height: normal;
     font: size 20px;
-    padding: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
