@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // first, hide all the content under the logos
     $(".designContent").hide();
-    $(".devContent").hide();
+    $(".development-content").hide();
     $(".product-content").hide();
 
     // Add click listeners
@@ -12,5 +12,23 @@ $(document).ready(function () {
     $(".designContent").click(function () {
         $(".designContent").hide();
         $("#design").show();
+    });
+
+    $("#development").click(function () {
+        $("#development").hide();
+        $(".development-content").show();
+    });
+    $(".development-content").click(function () {
+        $(".development-content").hide();
+        $("#development").show();
+    });
+
+    $("#product").click(function () {
+        $("#product").hide();
+        $(".product-content").show();
+    });
+    $(".product-content").click(function () {
+        $(".product-content").hide();
+        $("#development").show();
     });
 });
