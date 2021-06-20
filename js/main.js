@@ -31,4 +31,28 @@ $(document).ready(function () {
         $(".product-content").hide();
         $("#product").show();
     });
+
+    // handle form submission
+    $('.submit').click(function(e) {
+        e.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+    
+        if (email.length > 5 && email.includes('@') && email.includes('.')) {
+          alert("email is valid")
+        } else {
+          alert("email is invalid")
+        }
+        if (name.length > 2) {
+          alert(name);
+        } else {
+          alert('name is invalid')
+        }
+        if (message.length > 2) {
+          document.getElementById('status').innerText = "Thank you for your message!"
+        } else {
+          document.getElementById('status').innerText = "Please provide a suitable message"
+        }
+      });
 });
