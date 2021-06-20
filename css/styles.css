@@ -13,3 +13,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.text-sm{
+    font-size: small;
+}
+
+.scroll-click{
+    cursor: pointer;
+}
+
+.services{
+    background-image: url( "../images/backgrounds//s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
