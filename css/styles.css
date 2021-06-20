@@ -51,3 +51,11 @@ input::placeholder, textarea::placeholder{
     color: #ffffffb6;
 }
 
+.portfolio-image{
+    transition: transform .2s;
+}
+
+.zoomed{
+    transition: transform .2s;
+    transform: scale(1.5);
+}

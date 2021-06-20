@@ -57,7 +57,9 @@ $(document).ready(() => {
     });
 
     $('.portfolio-image').hover(function() {
-        $("#work1Text").show();
+        $('img').hover(function() {
+            $(this).toggleClass("zoomed");
+        });
       });
 
     $('#subscribeForm').bind('.submit', (e) => {
