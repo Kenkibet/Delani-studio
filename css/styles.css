@@ -27,3 +27,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.contact-us{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input, textarea{
+    background-color: transparent !important;
+    }
+
+input::placeholder, textarea::placeholder{
+    color: white !important;
+}

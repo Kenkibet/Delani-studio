@@ -60,9 +60,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p id="inlineDesign"><img id="designLogo" src="images/services_icons/design_icon.png" class="img-fluid" alt="Dev_logo">DESIGN
-          </p>
-          <div class="toggleDesignLogo">
+          <div id="design">
+            <img id="designLogo" src="images/services_icons/design_icon.png" class="img-fluid" alt="design_icon">
+            <p>DESIGN </p>
+          </div>
+          <div class="toggleDesignContent">
             <h4>Design</h4>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual
               design and user experience testing. Throughout your project, our designers create and implement visual
@@ -70,9 +72,13 @@
               user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p id="inlineDev"><img id="devLogo" src="images/services_icons/dev_icon.png" class="img-fluid" alt="Dev_logo">DEVELOPMENT</p>
-          <div class="toggleDevLogo">
+          <div id="development"><img id="devLogo" src="images/services_icons/dev_icon.png" class="img-fluid"
+              alt="Dev_logo">
+            <p>DEVELOPMENT</p>
+          </div>
+          <div class="toggleDevContent">
             <h4>Development</h4>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual
               design and user experience testing. Throughout your project, our designers create and implement visual
@@ -80,9 +86,12 @@
               user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <p id="inlineProduct"><img id="productLogo" src="images/services_icons/product_icon.png" class="img-fluid "
-              alt="Product_logo">PRODUCT MANAGEMENT</p>
+          <div id="product"><img id="productLogo" src="images/services_icons/product_icon.png" class="img-fluid "
+              alt="Product_logo">P
+            <p>RODUCT MANAGEMENT</p>
+          </div>
           <div class="toggleProductLogo">
             <h4>Product Management</h4>
             <p>Planning and development is iterative. Because we are constantly coding and testing, the products we
@@ -93,64 +102,65 @@
       </div>
     </div>
   </div>
-  <div class="portfolio">
-    <h1>PORTFOLIO</h1>
+
+
+  <div class="text-center py-2">
+    <h2>PORTFOLIO</h2>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work1Logo"><img src="images/work1.jpg" class="img-fluid" alt="">
-            <h3 id="work1Text">Work1 Text</h3>
-          </div>
+          <div class="work1Logo"><img src="images/portfolio/work1.jpg" class="img-fluid" alt=""> </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work2Logo"><img src="images/work2.jpg" class="img-fluid" alt=""></div>
+          <div class="work2Logo"><img src="images/portfolio/work2.jpg" class="img-fluid" alt=""></div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work3Logo"><img src="images/work3.jpg" class="img-fluid" alt=""></div>
+          <div class="work3Logo"><img src="images/portfolio/work3.jpg" class="img-fluid" alt=""></div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work4Logo"><img src="images/work4.jpg" class="img-fluid" alt=""></div>
+          <div class="work4Logo"><img src="images/portfolio/work4.jpg" class="img-fluid" alt=""></div>
         </div>
       </div>
-      <div class="row6">
+      <div class="row  mt-2">
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work5Logo"><img src="images/work5.jpg" class="img-fluid" alt=""></div>
+          <div class="work5Logo"><img src="images/portfolio/work5.jpg" class="img-fluid" alt=""></div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work6Logo"><img src="images/work6.jpg" class="img-fluid" alt=""></div>
+          <div class="work6Logo"><img src="images/portfolio/work6.jpg" class="img-fluid" alt=""></div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work7Logo"><img src="images/work7.jpg" class="img-fluid" alt=""></div>
+          <div class="work7Logo"><img src="images/portfolio/work7.jpg" class="img-fluid" alt=""></div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <div class="work8Logo"><img src="images/work8.jpg" class="img-fluid" alt=""></div>
+          <div class="work8Logo"><img src="images/portfolio/work8.jpg" class="img-fluid" alt=""></div>
         </div>
       </div>
     </div>
   </div>
-  <div class="contactUs">
-    <div class="container">
-      <div class="row7" style="background-image: url(images/c_img.jpg)" class="img-fluid">
-        <h1>CONTACT US</h1>
-        <form method="POST" id="subscribeForm">
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <input type="text" class="form-control" id="nameInput" placeholder="Name">
-            </div>
-            <div class="form-group col-md-6">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control form-control-lg" id="messageInput" rows=""
-                placeholder="Your message here"></textarea>
-            </div>
+
+  <div class="contact-us mt-3 py-5">
+    <div class="container text-white my-5">
+      <h2 class="text-center">CONTACT US</h2>
+
+      <form method="POST" id="subscribeForm">
+        <div class="row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" id="nameInput" placeholder="Name">
           </div>
-          <button type="button" class="submit">Submit</button>
-        </form>
-        <div id="status"></div>
-      </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          <div class="form-group col-md-12">
+            <textarea class="form-control form-control-lg" id="messageInput" rows="10"
+              placeholder="Your message here"></textarea>
+          </div>
+        </div>
+        <button type="button" class="submit">Submit</button>
+      </form>
+      <div id="status"></div>
     </div>
   </div>
+  
   <footer>
     <div class="footer">
       <ul>
