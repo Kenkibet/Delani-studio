@@ -63,6 +63,22 @@ $(document).ready(() => {
         var message = document.getElementById('message').value;
 
         // 7d1345331adb4591fb0e276f5cad133b-us6
+        $.ajax({
+            type: "POST",
+            url: url = "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?" + "apikey=7d1345331adb4591fb0e276f5cad133b-us6"+
+            "&email[email]=" + email +
+              "&merge_vars[NAME]=" + name +
+              "&merge_vars[NAME]=" + message +
+              "&send_welcome=false",
+            dataType: 'json',
+            success: function(data) {
+              $('#subscribe-form').html("Thank you for your subscrition!");
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert(errorThrown);
+            }
+          });
+      
 
 
     });
