@@ -29,6 +29,6 @@ $(document).ready(function () {
     });
     $(".product-content").click(function () {
         $(".product-content").hide();
-        $("#development").show();
+        $("#product").show();
     });
 });
