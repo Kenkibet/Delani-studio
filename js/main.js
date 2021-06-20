@@ -50,11 +50,15 @@ $(document).ready(() => {
             alert('name is invalid')
         }
         if (message.length > 2) {
-            document.getElementById('status').innerText = "Thank you for your message!"
+            document.getElementById('status').innerText = name+ "  we have received your message. Thank you fro reaching out to us. **"
         } else {
             document.getElementById('status').innerText = "Please provide a suitable message for us"
         }
     });
+
+    $('.portfolio-image').hover(function() {
+        $("#work1Text").show();
+      });
 
     $('#subscribeForm').bind('.submit', (e) => {
         e.preventDefault();
