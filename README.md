@@ -5,9 +5,6 @@
 
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. 
 
-## Screenshot
-<img src="https://raw.githubusercontent.com/Kenkibet/Delani-Studio/main/screenshots/Screenshot%20from%202021-06-21%2001-51-00.png" width="900px" height="440px">
-<img src="https://raw.githubusercontent.com/Kenkibet/Delani-Studio/main/screenshots/Screenshot%20from%202021-06-21%2001-52-07.png" width="900px" height="440px">
 
 ## Live Page 
 https://kenkibet.github.io/Delani-studio/
@@ -30,12 +27,9 @@ https://kenkibet.github.io/Delani-studio/
 * [jQuery](https://github.com/topics/javascript)
 * markdown
 
-## Known Bugs
-* mail chimp API does not function properly. 
-
 ## Contact Information 
 
-If you have any question or contributions, please email me at [kenkibet@gmail.com]
+If you have any question or contributions, please email me at [kenkibet@student.Moringaschool.com]
 
 ## License
 * *MIT License:*
